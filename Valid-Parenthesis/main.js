@@ -1,4 +1,4 @@
-function isValid() {
+function isValid(s) {
     const stack = [];
     const brackets = {
         ')': '(',
