@@ -23,10 +23,3 @@ var twoSum = function (nums, target) {
     return [];
 };
 // @lc code=end
-
-// index
-// compliment
-// numberAndIndex (hash map) that stores key value pairs of the number and index of the number
-
-// nums = [6, 2, 2] target = 4
-// numberAndIndex = [{}]
