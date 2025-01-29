@@ -16,8 +16,8 @@
  * @param {ListNode} node
  * @return {void} Do not return anything, modify node in-place instead.
  */
-var deleteNode = function(node) {
-    
+var deleteNode = function (node) {
+    node.val = node.next.val; // Copy next node’s value into the current node
+    node.next = node.next.next; // Skip the next node (deleting it)
 };
 // @lc code=end
-
